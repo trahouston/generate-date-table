@@ -8,6 +8,7 @@ Script will output a pipe-delimited csv file in the current directory.
 Use table generation SQL file for desired DBMS and load CSV file.
 
 Included columns and value example:
+
 	'id': 20201231 
 	'calendar_date': '2020-12-31' 
 	'calendar_day': 31 
