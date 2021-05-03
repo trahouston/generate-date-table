@@ -9,7 +9,7 @@ CREATE TABLE `dates` (
   `calendar_m_d_y` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
   `reporting_y_q_w` varchar(15) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0000Q0W0',
   `reporting_y_w` varchar(15) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0000W0',
-  `reporting_y_w_d` int(11) NOT NULL,
+  `reporting_y_w_d` varchar(15) NOT NULL,
   `day_of_week_number` int(11) NOT NULL,
   `day_of_week_name` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `day_of_week_short_name` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
