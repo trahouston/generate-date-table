@@ -1,3 +1,4 @@
+-- drop table if exists `dates`'
 CREATE TABLE `dates` (
   `id` int(11) NOT NULL,
   `calendar_date` date NOT NULL,

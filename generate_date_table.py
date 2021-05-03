@@ -55,7 +55,7 @@ while current_date <= date(end_year,12,31):
 		'quarter_number': int(getQuarter(current_date.month)),
 		'quarter_name': '{0}Q{1}'.format(current_date.year,getQuarter(current_date.month)),
 		'year_number':current_date.year,
-		'year name': 'Year {0}'.format(current_date.year),
+		'year_name': 'Year {0}'.format(current_date.year),
 		'day_of_year_number':int(current_date.strftime('%j'))
 	}
 	records.append(date_rec)
